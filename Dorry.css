@@ -1,0 +1,598 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header{
+	width: 100%;
+	height: 150px;
+	position: relative;
+	position: fixed;
+	z-index: 2;
+
+
+} 
+.header i{
+	color: white;
+}
+.top-header{
+	width: 100%;
+	height: 50px;
+	background: #191919;
+	border-bottom: 2px solid #222222;
+	position: relative;
+
+
+}
+.menu-Responsive{
+	width: 40px;
+	height: 40px;
+	background: #c52d2f;
+	border-radius: 5px;
+	position: relative;
+	float:right;
+	margin:25px;
+	display:none;
+}
+.menu-Responsive:hover{
+	background: gray;
+}
+.menu-Responsive a{
+	text-decoration: none;
+	font-size:30px;
+	color:white;
+	position: absolute;
+	left: 7px;
+	top:-2px
+}
+.close{
+	display: none;
+}
+.footer-header{
+	width: 100%;
+	height: 100px;
+	background: #151515;
+	position: relative;
+
+
+}
+.fone-header{
+	width: 13%;
+	height: 100%;
+	position: absolute;
+	left: 10%;
+	line-height: 250%;
+	font-size: 18px;
+	color: white;
+
+}
+.icon-header{
+	width: auto;
+	height: 50%;
+	position: absolute;
+	right: 10%;
+	top:25%;
+}
+.vuong{
+	width:auto;
+	height: 100%;
+	float: left;
+}
+.con{
+	width: 30px;
+	height: 100%;
+	background:#404040;
+	border-radius: 3px;
+	margin-right: 3px;
+	text-align: center;
+	line-height: 150%;
+	float: left;
+}
+.con:hover{
+	background: #c52d2f;
+}
+
+.icon-header input{
+	width: 80px;
+	height: 20px;
+	background:  #191919;
+	border:none;
+	transition-property: width;
+	transition-duration: 1.5s;
+	transition-timing-function: linear;
+	color: white;
+}
+.icon-header input:hover{
+	width: 180px;
+}
+
+.logo img{
+	width: 4%;
+	height: 20%;
+	border-radius: 50%;
+	margin-left: 10%;
+	margin-top: 10px;
+}
+.menu{
+	width: 65%;
+	height: 40px;
+	position: absolute;
+	right: 0%;
+	top:40px;
+}
+.menu2{
+	display: none;
+}
+
+.cap1>ul>li{
+	display: inline;
+	padding: 1.5% 2%;
+	margin-right: 1.5%;
+	border-radius: 5px;
+	position: relative;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+.menu ul li:hover{
+	background: #c52d2f;
+}
+.cap2{
+	width: auto;
+	position: absolute;
+	left: 0px;
+	top:39px;
+	display: none;
+	border-top:25px solid transparent;
+	z-index: 1;
+}
+
+.cap2 ul li{
+	list-style: none;
+	padding: 10px 30px 10px 10px;
+	background:#404040;
+}
+.drop_menu:hover li{
+	cursor: pointer;
+	animation-name: dropDown;
+	animation-timing-function: ease-in-out;
+	color: white;
+	animation-fill-mode: forwards;
+}
+.drop_menu:hover li:nth-child(1){
+	animation-duration: 300ms;
+}
+.drop_menu:hover li:nth-child(2){
+	animation-duration: 1000ms;
+}
+.drop_menu:hover li:nth-child(3){
+	animation-duration: 1500ms;
+}
+.drop_menu:hover li:nth-child(4){
+	animation-duration: 2000ms;
+}
+@keyframes dropDown{
+	0%{
+		transform: rotateX(-30deg);
+		transform: translateX(300px);
+	}
+	100%{
+		transform: rotateX(0deg);
+		transform: translateX(0px);
+	} 
+}
+.menu ul li:hover .cap2{
+	display: block;
+}
+.wrapper{
+	margin:0 auto;
+	max-width: 1080px;
+	margin-top: 30px;
+}
+.clear-fix::after{
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.caption strong{
+	padding: 0px 10px;
+}
+.group p{
+	padding: 0px 10px;
+}
+.div-sanpham{
+	text-align: center;
+}
+
+
+
+.con-1 i{
+	width: 70px;
+	height: 70px;
+	background:white;
+	color: #55ab3c;
+	border: 1px solid gray;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 65px;
+	font-size: 22px;
+	margin: 0 auto;
+
+}
+.con-1 i:hover{
+	color: white;
+	background: #55ab3c;
+}
+.div-content{
+	margin-top:50px;
+	min-height: 100px;
+}
+.main{
+	margin-top: 200px;
+}
+.wrapper-page-content{
+	display: none;
+}
+
+
+.panel-body{
+	position: relative;
+	height: 40px;
+}
+.panel-body a{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: rgba(0,0,0,0.03);
+	color: black;
+	padding: 10px 30px;
+	text-decoration: none;
+
+}
+.group{
+	height: 100px;
+}
+.
+.list-group{
+	position: relative;
+}
+.list-group img{
+	height: 97px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.text{
+	position: absolute;
+	left: 40%;
+}
+.text p{
+	color: red;
+}
+.text strong , strike{
+	padding-left: 10px;
+}
+.panel-default{
+	margin-top: 30px;
+	position: relative;
+}
+
+
+
+.caption span ,.fa-star-o{
+	color: red;
+}
+.caption button{
+	padding: 10px;
+	/*background: #55ab3c;
+	color: white;*/
+	border: 1px solid gray;
+}
+.as:hover {
+	background: #55ab3c;
+	color: white;
+
+
+}
+.thumbnail{
+	position: relative;
+}
+.div-inner-thumbnail{
+	position: absolute;
+	left: 5px;
+	right: 5px;
+	bottom: 130px;
+	top: 5px;
+
+}
+
+.div-inner-thumbnail:hover{
+	background: rgba(0,0,0,0.1);
+	border: 1px solid red;
+
+
+}
+.div-inner-hqnk{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+
+}
+.div-inner-hqnk:hover{
+	background: rgba(0,0,0,0.5);
+}
+.spbc{
+	margin-top: 100px;
+}
+.nav-pills{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	
+}
+.hihi{
+	margin: 0px 20px;
+}
+.buton button{
+	margin:0px;
+	
+}
+.class img{
+	width: 100%;
+	margin-top: 20px;
+}
+
+
+
+form {
+	text-align: center;
+
+
+}
+
+input[type=text], input[type=submit] {
+	width: 30%;
+	padding: 10px 15px;
+	margin: 8px 15px;
+	display: inline-block;
+	border: 1px solid red;
+}
+
+input[type=checkbox] {
+	margin-top: 16px;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	width: 10%;
+
+}
+
+input[type=submit]:hover {
+	opacity: 0.8;
+}
+.div-footer-line-1 h3{
+	text-align: center;
+}
+
+
+div.tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+	background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+div.tab1 {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab1 button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab1 button:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab1 button.active1 {
+	background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent1 {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+}
+.caption h3 {
+	margin-left: 10px;
+}
+.div-footer{
+	width: 100%;
+	min-height: 500px;
+	background:  #191919;
+}
+.olala{
+	color: gray;
+}
+.caption p {
+	padding: 0px 10px; 
+} 
+
+.wrapper h2{
+	text-align: center;
+	color: white;
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1300px){
+	.container-fluid{
+		width: 100%;
+		height: auto;
+	}
+	.cap2{
+		top:37px;
+	}
+
+	.logo{
+		background-size: 100%;
+	}
+
+	
+	.menu2{
+		display: none;
+	}
+}
+@media only screen and (min-width: 375px) and (max-width: 991px){
+	.container-fluid{
+		width: 100%;
+	} 
+	.logo{
+		width: 140px;
+		margin-left: -30px;
+		background-image: url('../IMG/logo2-no-bg.png');
+	}
+	.top-header{
+		height: 60px;
+	}
+	.con{
+		height: 25px; 
+		width: 25px;
+	}
+	.fone-header{
+		font-size: 15px;
+		left: 5%;
+		line-height: 400%;
+		width: 30%;
+
+	}
+	.icon-header{
+		right: 4%;
+	}
+	.icon-header input{
+		width: 50px;
+	}
+	.menu{
+		display: none;
+	}
+	.menu-Responsive{
+		display: block;
+	}
+	.menu2{
+		width: 100%;
+		height: 320px;
+		background:#191919;
+		z-index: 99;
+		position: absolute;
+		top:90px;
+		display: none;
+	}
+	.menu2 a{
+		text-decoration: none;
+		color: white;
+		position: relative;
+		font-weight: bold;
+
+	}
+	.menu2 ul li{
+		padding: 7px 10px;
+		width:130px;
+		border-radius: 5px;
+		margin-left: 50px;
+		list-style: none;
+		margin-top: 5px;
+		background: gray;
+
+	}
+	.menu2 .cap2-2{
+		display:none;;
+	}
+	.menu2 .cap1-2 ul li:hover{
+		background: #c52d2f;
+	}
+	.menu2 .cap1-2 ul li:hover .cap2-2{
+		display: block;
+	} 
+	.menu2 .cap2-2{
+		position: absolute;
+		left: 179px;
+		top:155px;
+		border-radius: 5px;
+		border-left: 5px solid  #191919;   
+	}
+	.cap2-2 ul li{
+		margin-left: 5px
+	}
+}
+.cap1 a#pull {  
+	display: none;  
+} 
+.thumbnail a:hover{
+	text-decoration: none;
+}
+
+
